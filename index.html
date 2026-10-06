@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Thota Venkata Hari, Full Stack Java Developer fresher.">
+<title>Thota Venkata Hari - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header>
+<nav class="navbar">
+<a href="#home" class="logo">Thota <span>Venkata Hari</span></a>
+<button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
+<ul class="nav-links" id="navLinks">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact" class="nav-button">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-shape shape-one"></div>
+<div class="hero-shape shape-two"></div>
+<div class="hero-content">
+<div class="hero-text reveal-left">
+<h4>Hello, I'm</h4>
+<h1>Thota <span>Venkata Hari</span></h1>
+<h2>I'm a <span id="typingText">Full Stack Java Developer</span></h2>
+<p>I am a passionate and detail-oriented Java Developer with a strong foundation in object-oriented programming and software development. I love solving logical challenges and developing creative software solutions.</p>
+<div class="buttons">
+<a href="#contact" class="button red-button">Contact Me</a>
+<a href="assets/Thota_Venkata_Hari_Resume.pdf" class="button blue-button" download="Thota_Venkata_Hari_Resume.pdf">Download Resume</a>
+</div>
+</div>
+<div class="profile-area reveal-right">
+<div class="profile-ring">
+<div class="profile-circle">
+<img src="assets/hari.png" alt="Thota Venkata Hari" onerror="this.onerror=null;this.src='hari.png';">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<div class="section-title reveal"><h2>About <span>Me</span></h2></div>
+<div class="about-box reveal">
+<p>I am a Full Stack Java Development fresher with hands-on training and practical project experience. I enjoy learning new technologies, solving programming problems, and creating useful software applications.</p>
+<p>I am passionate about continuous learning, problem-solving, and working on real-world projects that help me improve my development skills.</p>
+<p>My learning journey focuses on Core Java, object-oriented programming, SQL, Oracle, HTML, CSS, Git, and GitHub. I am continuously improving my coding skills by building practical applications and understanding how software works from development to deployment.</p>
+<p>I am looking for an opportunity where I can learn from experienced developers, contribute to real-world projects, and grow as a professional Java developer.</p>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+<div class="section-title reveal"><h2>Technical <span>Skills</span></h2></div>
+<div class="skills-container">
+<div class="skill-card reveal"><div class="skill-icon">JAVA</div><h3>Core Java</h3><p>OOP Concepts<br>Exception Handling<br>File Handling</p></div>
+<div class="skill-card reveal"><div class="skill-icon">SQL</div><h3>Database</h3><p>SQL<br>Oracle<br>Database Management</p></div>
+<div class="skill-card reveal"><div class="skill-icon">HTML</div><h3>HTML & CSS</h3><p>HTML5<br>CSS3<br>Responsive Design</p></div>
+<div class="skill-card reveal"><div class="skill-icon">GIT</div><h3>Version Control</h3><p>Git<br>GitHub<br>Repository Management</p></div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<div class="section-title reveal"><h2>My <span>Project</span></h2></div>
+<div class="project-card reveal">
+<img class="project-cover" src="assets/travelvistra-cover.png" alt="Travel Vistra Project Cover" onerror="this.onerror=null;this.src='travelvistra-cover.png';">
+<div class="project-badge">TRAVEL VISTRA PROJECT</div>
+<h3><a href="https://travelvistra.vercel.app" target="_blank" rel="noopener">Travel Vistra</a></h3>
+<p>A travel website project designed to present travel destinations and provide a simple and attractive travel experience.</p>
+<div class="technology">HTML • CSS • JavaScript</div>
+<div class="project-buttons">
+<a href="https://travelvistra.vercel.app" class="button red-button" target="_blank" rel="noopener">Travel Vistra</a>
+<a href="https://github.com/thotavenkatahari/travelvista" class="button blue-button" target="_blank" rel="noopener">GitHub</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="section-title reveal"><h2>Contact <span>Me</span></h2></div>
+<div class="contact-container">
+<div class="contact-info reveal">
+<div class="contact-item"><h3>Address</h3><p>1-80, Pedalanka, Kolluru Mandal, Bapatla Dist</p></div>
+<div class="contact-item"><h3>Phone</h3><p><a href="tel:+918978144929">8978144929</a></p></div>
+<div class="contact-item"><h3>Email</h3><p><a href="mailto:thotahari43@gmail.com">thotahari43@gmail.com</a></p></div>
+<div class="contact-item"><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/venkata-hari-thota-66189642b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">thotavenkatahari</a></p></div>
+</div>
+<form class="contact-form reveal" id="contactForm">
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Your Email" required>
+<input type="tel" id="phone" placeholder="Your Phone" required>
+<textarea id="message" placeholder="Your Message" required></textarea>
+<button type="submit" class="button red-button">Send Message</button>
+<p id="formMessage"></p>
+</form>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© <span id="year"></span> Thota Venkata Hari. All Rights Reserved.</p>
+<p>Built using HTML, CSS and JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
